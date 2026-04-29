@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>❤my princessangelbabysparklecupcakesnookemz❤</title>
+  <title></title>
   <style>
   
   html, body {
@@ -247,7 +247,7 @@ img.sleepy {
 <body>
 
  
- <h1 class="title">💕princessangelbabysparklecupcakesnookemz💕</h1>
+ <h1 id="mainTitle" class="title">💕HAPPY MOTHERS DAY💕</h1>
  <p class="small-text">   </p>
  <div class="slideshow">
 
@@ -454,20 +454,21 @@ img.sleepy {
   
   <p>
    💕 I just want to start off by saying I am sososo proud of you.💕 <br><br>
-   These past 6 weeks have been a little less than perfect but I am so blessed to have been able to spend them with you and be with you every single day and watch you grow and conquer anything that got in your way. You are so smart, talented and amazing there was never a single doubt in my mind that you would be the bestest at what it is you want to do. When your name was announced and I watched you walk up on that stage, I’ve never felt more proud of someone, seeing you happy and achieving your goals made me feel ways I didn't even know I could feel. I am very appreciative you let me be part of such a monumental time in your life and I am 
+   💞These past 6 weeks have been a little less than perfect but I am 💞so blessed to have been able to spend them with you and be with you every single day and watch you grow and conquer anything that got in your way. You are so smart, talented and amazing there was never a single doubt in my mind that you would be the bestest at what it is you want to do. When your name was announced and I watched you walk up on that stage, I’ve never felt more proud of someone, seeing you happy and achieving your goals made me feel ways I didn't even know I could feel. I am very appreciative you let me be part of such a monumental time in your life and I am 
     
 	<img src="final1.jpg" class="final-img">
-	You are the genuinely the most extraordinary, beautiful, talented, precious, unforgettable, silly, adorable, mesmerizing, comforting and loving woman that I have ever known and will ever know.
+	🌟✨You are the genuinely the most extraordinary, beautiful, 🌟✨ talented, precious, unforgettable, silly, adorable, mesmerizing, comforting and loving woman that I have ever known and will ever know.
 	
 	<img src="final2.jpg" class="final-img">
-	Every since we started talking you have been the brightest light in my life. From all the time we spend together to all the talks we have, you have really changed my view on things. There is so much more I want, not just for myself but also to be the man you deserve. You are the biggest motivator and I want to experience so many things with you and appreciate all we can in this silly little world. 
+	🌙Every since we started talking you have been the brightest light🌙in my life. From all the time we spend together to all the talks we have, you have really changed my view on things. There is so much more I want, not just for myself but also to be the man you deserve. You are the biggest motivator and I want to experience so many things with you and appreciate all we can in this silly little world. 
 	
 	I wish I could put into words or fully express the love I feel for you and I don't know if I will ever be able to do that but I promise to never stop trying and never stop giving you the love and affection you deserve. You are my favorite person, my home and I am so happy that you're in my life and that I am blessed enough to be so close to you and feel your love and I would like to think these 6 weeks just made us grow closer. I am so certain the love I have for you is real and everything I say to you I never say lightly. I want a life with you, I want to grow old with you, I want to travel the world and see things we have never seen together, I want to be better with you and provide for you, I want to spoil you and I want to love you until you're sick of it and even beyond that. Whether we're having a good day or a bad day or whether you're traveling away from home or we're playing fortnite or cuddling in bed or even watching a movie with this temporary distance between us, you have every single ounce of my heart.
 	
-	I know I am not the best version of myself at this very moment but I promise I am changing so we can have the best possible future. We are both going to be going through some big changes in our lives and I know it's a little scary but I promise I will love you every second of every day and cherish every aspect of you and ALWAYS be here for you through anything. 
+	I know I am not the best version of myself at this very moment but I promise I am changing so we can have the best possible future. We are both going to be going through some big changes in our lives and I know it's a little scary but I promise I will love you every second of every day and cherish every aspect of you and always be here for you through anything. 
 	
-	I love everything about you Kaylin, even your grumpy mornings or your stressed nights or when you're overwhelmed or nonverbal just making noises back to me, I wouldn't give any of that up for anything. There's nothing I want more than for you to continue to be my light until all the lights in the universe go out and for you to let me be yours. I promise to always protect you and provide for you and support you in everything you do and cherish you and love you to my fullest extent for as long as I exist. You are the most special to me and I want a lifetime full of you, every moment, every day good or bad, every failure and success, I want to be there for it all. If you want me to be of course... I am all yours. 
+	I love waking up with you every day and listening to you sleep and feeling your presence when we don't speak and caring for you and yearning for you every single day and I will never get tired of any of it. I am so appreciative of every little thing and I hope I make you realize how important you are and how much you mean to me and how amazing you are as a person and that you are deserving of all of my love and so much more I can't wait to give you. 
 	
+	I love everything about you Kaylin, even your grumpy mornings or your stressed nights or when you're overwhelmed or nonverbal just making noises back to me, I wouldn't give any of that up for anything. Your smile is contagious, your laugh is infectious, and you always seem to find a way to make everything seem okay even when I'm being a little crazy. There's nothing I want more than for you to continue to be my light until all the lights in the universe go out and for you to let me be yours. I promise to always protect you and provide for you and support you in everything you do and cherish you and love you to my fullest extent for as long as I exist. You are the most special to me and I want a lifetime full of you, every moment, every day good or bad, every failure and success, I want to be there for it all. If you want me to be of course... I am all yours. 
 	
   </p>
   
@@ -480,10 +481,10 @@ img.sleepy {
 
 let musicStarted = false;
 let targetVolume = 1.0;
+let index = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  let index = 0;
   let finished = false;
   let musicStarted = false;
   let targetVolume = 1.0;
@@ -510,6 +511,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (index < slides.length - 1) {
       index++;
       showSlide(index);
+	  updateTitle(); //
     } else if (!finished) {
       finished = true;
 
@@ -524,6 +526,7 @@ document.addEventListener("DOMContentLoaded", () => {
   window.prevSlide = function () {
     if (index > 0) index--;
     showSlide(index);
+    
   };
 
   showSlide(index);
@@ -537,7 +540,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // ---------- MUSIC ----------
-  function startMusic() {
+  window.startMusic = function () {
     if (musicStarted || !music) return;
 
     musicStarted = true;
@@ -604,6 +607,18 @@ function fadeIn() {
 }
 
 
+
+function updateTitle() {
+  const title = document.getElementById("mainTitle");
+
+  if (index >= 3) {
+    title.textContent = "💕 princessangelbabysparklecupcakesnookemz 💕";
+  } else if (index >= 2) {
+    title.textContent = "💕 just kidding haha 💕";
+  } else {
+    title.textContent = "💕HAPPY MOTHERS DAY💕";
+  }
+}
 
 
 </script>
